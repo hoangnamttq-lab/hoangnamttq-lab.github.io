@@ -13,21 +13,21 @@
 <main id="content">
 <section><h2>Your records and your choices</h2>
 <p>Vehicle Deal Planner is provided by Nam Tran. This policy describes the iOS app and these information pages. For questions or a privacy request, email <a href="mailto:hoangnamttq@gmail.com">hoangnamttq@gmail.com</a>.</p>
-<p class="summary">Vehicle records are stored on your device. The app does not automatically upload your vehicle notes, photos, buyer details, repair records or deal amounts to the developer, RevenueCat or Firebase.</p>
+<p class="summary">Vehicle records are stored on your device. The app does not automatically upload your vehicle notes, photos, buyer details, repair records or deal amounts to the developer or Firebase.</p>
 <p>No app account is required. There are no advertising SDKs or AI services processing your records. We do not sell your information or use it for targeted advertising.</p></section>
 
 <section><h2>Information stored on your device</h2>
 <p>Your workspace contains vehicle names, buying plans, baseline snapshots, costs, quotes, bills, payments, sale details, notes, attachments and history. Preferences, drafts, report branding, deleted records available for undo, and the record of your Free allowance are also stored locally.</p>
 <p>The developer cannot open or recover this local workspace remotely. iOS device backups and transfers may include app data according to your Apple settings.</p></section>
 
-<section><h2>Subscriptions and RevenueCat</h2>
-<p>Apple processes payment and purchase transactions. The app uses RevenueCat to retrieve products, verify subscription access, restore purchases and update entitlement status. When this service connects, RevenueCat processes a generated app customer identifier, purchase and receipt information, subscription status, and technical app/device information needed to provide that service. This connection may occur before a purchase is completed.</p>
-<p>The app does not send RevenueCat your vehicle records or your email address. The developer does not receive your full payment-card details or Apple Account password. See <a href="https://www.revenuecat.com/privacy/">RevenueCat’s privacy information</a> and <a href="https://www.apple.com/legal/privacy/">Apple’s privacy information</a>.</p></section>
+<section><h2>Subscriptions through Apple</h2>
+<p>Apple processes payment and purchase transactions. The app uses Apple’s StoreKit 2 framework to retrieve available products and prices, verify subscription access, restore purchases and open subscription management. Apple-signed transaction and subscription information is checked on your device to determine Pro access. The app does not use a separate subscription-management provider.</p>
+<p>Your vehicle workspace is not sent with these purchase requests. The developer does not receive your full payment-card details or Apple Account password. Apple handles App Store account and transaction information under <a href="https://www.apple.com/legal/privacy/">Apple’s privacy information</a>.</p></section>
 
 <section><h2>Optional analytics and diagnostics</h2>
 <p>Some builds offer an optional analytics and diagnostics switch in Settings. It starts off. If the switch is available and you enable it, Google Analytics for Firebase and Firebase Crashlytics process app activity and technical diagnostics to help improve the app.</p>
 <p>Activity includes screens visited and whether actions such as creating, deleting, exporting, restoring or purchasing succeeded. Sent values are restricted to predefined categories, settings and product identifiers; they do not include vehicle names, notes, photos, buyer details or vehicle financial amounts. Diagnostics can include installation identifiers, app/iOS versions and crash traces.</p>
-<p>While this choice is on, an analytics app-instance identifier may also be associated with your RevenueCat customer record to understand subscription activity. Turning the choice off stops future optional collection and requests removal of that identifier association; it does not automatically delete records already processed. When this choice is not offered, the app does not enable Firebase collection. More information: <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</p></section>
+<p>Turning this choice off stops future optional collection and resets the app’s analytics data on the device; it does not automatically delete records already processed by the service. When this choice is not offered, the app does not enable Firebase collection. More information: <a href="https://firebase.google.com/support/privacy">Firebase privacy and security</a>.</p></section>
 
 <section><h2>Photos, exports and backups</h2>
 <p>Camera access is requested when you choose to take a photo. Selected or captured images are copied into local app storage. You control camera and photo access through iOS.</p>
